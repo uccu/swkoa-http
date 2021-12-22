@@ -41,16 +41,16 @@ class HttpServer implements IPoolStartBeforePlugin
     public function pluginLoaderInit(PluginLoader $pluginLoader)
     {
         $this->pluginLoader = $pluginLoader;
+    }
+
+    public function poolStartBefore($manager)
+    {
 
         $appName = "Uccu\\SwKoaServer\\App";
         if (class_exists($appName)) {
             $this->config = $appName::$config;
             $this->logger = $appName::$logger;
         }
-    }
-
-    public function poolStartBefore($manager)
-    {
 
         if (is_null($this->config)) {
             throw new HttpServerException("config is not been imported");
