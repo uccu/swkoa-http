@@ -9,8 +9,8 @@ use Swoole\Process\Pool;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerAwareInterface;
 use Swoole\Process\Manager;
-use Uccu\SwKoaPlugin\Plugin\PluginLoader;
-use Uccu\SwKoaPlugin\Plugin\PoolStartBeforePlugin;
+use Uccu\SwKoaPlugin\PluginLoader;
+use Uccu\SwKoaPlugin\PoolStartBeforePlugin;
 
 class HttpServer implements LoggerAwareInterface, PoolStartBeforePlugin
 {
