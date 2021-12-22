@@ -1,0 +1,30 @@
+{
+    "name": "uccu/swkoa-http",
+    "description": "http tool for swkoa",
+    "keywords": [
+        "swkoa",
+        "swoole",
+        "koa",
+        "http",
+        "pzcat"
+    ],
+    "homepage": "https://github.com/uccu/swkoa-http",
+    "license": "MIT",
+    "authors": [{
+        "name": "pzcat",
+        "email": "cat@4moe.com"
+    }],
+    "require": {
+        "php": ">=7.3.0",
+        "psr/log": "^1.1",
+        "uccu/swkoa-plugin": "^0.1"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uccu\\SwKoaHttp\\": "lib"
+        }
+    }
+}
