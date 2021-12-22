@@ -16,7 +16,6 @@
     }],
     "require": {
         "php": ">=7.3.0",
-        "psr/log": "^1.1",
         "uccu/swkoa-plugin": "^0.1"
     },
     "require-dev": {

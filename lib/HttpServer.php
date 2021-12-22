@@ -6,7 +6,6 @@ use Swoole\Coroutine\Http\Server;
 use Swoole\Http\Request;
 use Swoole\Http\Response;
 use Swoole\Process\Pool;
-use Psr\Log\LoggerInterface;
 use Uccu\SwKoaPlugin\PluginLoader;
 use Uccu\SwKoaPlugin\IPoolStartBeforePlugin;
 
