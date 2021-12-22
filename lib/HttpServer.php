@@ -29,7 +29,7 @@ class HttpServer implements IPoolStartBeforePlugin
     public $workerId;
 
     /**
-     * @var LoggerInterface
+     * @var \Uccu\SwKoaLog\Logger
      */
     protected $logger;
 
