@@ -36,7 +36,7 @@ class HttpServer implements IPoolStartBeforePlugin
     /**
      * @var Config
      */
-    public static $config;
+    public $config;
 
     public function pluginLoaderInit(PluginLoader $pluginLoader)
     {
